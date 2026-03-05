@@ -3,9 +3,9 @@ from openai import OpenAI
 
 # 1. Setup - Securely get your API Key
 # In a real app, you'd use st.secrets for safety!
-client = OpenAI(api_key="YOUR_OPENAI_API_KEY")
+client = OpenAI(api_key="CLARITYSECRET")
 
-st.title("✍️ The Clarity Engine Pro")
+st.title("✍️ The Clarity Engine")
 
 user_input = st.text_area("Vague Text:", placeholder="e.g., Send me that stuff when you can.")
 tone_choice = st.selectbox("Preserve Tone:", ["Professional", "Casual", "Academic"])
